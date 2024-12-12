@@ -1,0 +1,112 @@
+#cities{
+    height: 100px;
+    box-shadow: 15px 15px 15px 0 rgb(116, 114, 116);
+}
+#cities:hover{
+    border: solid rgb(179, 175, 179);
+}
+.first{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+.second{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+.third{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+#line{
+    text-decoration: none;
+}
+.application{
+    /* border: solid; */
+    width: 450px;
+    height: 350px;
+    margin-left: 300px;
+    /* display: flex; */
+}
+#movie{
+    text-align: center;
+}
+
+.nam{
+    text-align: center;
+}
+#lbl{
+    /* height: 50px; */
+    /* text-align: center; */
+    position: relative;
+    margin-left: 50px;
+    top:10px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+#lbl1{
+    position: relative;
+    margin-left: 50px;
+    top:10px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+#lbl2{
+    position: relative;
+    margin-left: 50px;
+    top:10px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+#lbl3{
+    position: relative;
+    margin-left: 50px;
+    top:20px;
+    font-family: "Roboto", sans-serif;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+#txt{
+   position: relative;
+   float: right;
+   top:5px;
+   width: 300px;
+   height: 50px;
+}
+#txt1{
+    position: relative;
+    float: right;
+    top:10px;
+    width: 300px;
+    height: 40px;
+ }
+ #txt2{
+    position: relative;
+    float: right;
+    top:20px;
+    font-size: 15px;
+    width: 302px;
+    height: 50px;
+    margin-left: 2px;
+ }
+ #done{
+   margin-left: 400px;
+   margin-top: 50px;
+   height: 50px;
+   width: 100px;
+   color: #0f814c;
+   border: solid #0f814c;
+   background-color: white;
+   border-radius: 5px;
+   text-decoration: none;
+ }
+ #done:hover{
+    border: solid #000a06;
+    background-color: #0f814c;
+    color: white;
+ }

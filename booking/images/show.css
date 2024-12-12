@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+.top{
+    display: flex;
+    border: solid red;
+    height: 100px;
+}
+#head{
+    line-height: 80px;
+    margin-left: 30px;
+}
+#bttn{
+    height: 50px;
+    width: 500px;
+    position: static;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#bttn1{
+    height: 50px;
+    position: static;
+    margin-left: 0px;
+    margin-top: 20px
+}
+#khmm{
+    line-height: 80px;
+    position: fixed;
+    margin-left: 150px;
+    font-family: "Squada One", serif;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+#login{
+    height: 40px;
+    width: 100px;
+    position: fixed;
+    margin-left: 1230px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.navi{
+    border: solid;
+    display: inline-flex;
+    height: 50px;
+    width: 100%;
+}
+div ul li{
+    display: inline-flex;
+    margin-left: 10px;
+    line-height: 40px;
+}
+.right{
+    margin-left: 500px;
+}
+.premier{
+    border: solid;
+    display: flex;
+    height: 500px;
+}
+.card{
+    
+    width: 10%;
+}
