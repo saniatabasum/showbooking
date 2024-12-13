@@ -2,31 +2,36 @@ body{
     margin: 0;
 }
 .top{
+    background-color: darksalmon;
+    position:static;
     display: flex;
     border: solid red;
     height: 100px;
+    width: 100%;
+    
 }
 #head{
+    position: fixed;
     line-height: 80px;
     margin-left: 30px;
 }
 #bttn{
     height: 50px;
     width: 500px;
-    position: static;
-    margin-left: 100px;
+    position: fixed;
+    margin-left: 370px;
     margin-top: 20px;
 }
 #bttn1{
     height: 50px;
-    position: static;
-    margin-left: 0px;
+    position: fixed;
+    margin-left: 890px;
     margin-top: 20px
 }
 #khmm{
     line-height: 80px;
     position: fixed;
-    margin-left: 150px;
+    margin-left: 1100px;
     font-family: "Squada One", serif;
     font-style: normal;
     font-size: 20px;
@@ -42,6 +47,7 @@ body{
     text-decoration: none;
 }
 .navi{
+    margin-top: 10px;
     border: solid;
     display: inline-flex;
     height: 50px;
@@ -56,11 +62,24 @@ div ul li{
     margin-left: 500px;
 }
 .premier{
+    margin-top: 20px;
     border: solid;
-    display: flex;
+    /* display: flex; */
     height: 500px;
 }
-.card{
-    
-    width: 10%;
+#pmr{
+    text-align: center;
+  
+}
+/* .movie li{
+    display: flex;
+} */
+#pic{
+   
+    height: 200px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between
+#list{
+   display: inline-flex;
 }
