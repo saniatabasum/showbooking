@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+/* .container{
+    background-color: rgb(19, 17, 17);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+} */
 .top{
     background-color: darksalmon;
     position:static;
@@ -14,6 +20,15 @@ body{
     position: fixed;
     line-height: 80px;
     margin-left: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+#head:hover{
+    color: brown;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 #bttn{
     height: 50px;
@@ -62,24 +77,132 @@ div ul li{
     margin-left: 500px;
 }
 .premier{
-    margin-top: 20px;
     border: solid;
-    /* display: flex; */
-    height: 500px;
+    height: 400px;
 }
 #pmr{
+    margin-top: 10px;
     text-align: center;
-  
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
-/* .movie li{
-    display: flex;
-} */
+#pmr:hover{
+    color: brown;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 #pic{
-   
-    height: 200px;
-    width: 100%;
-    position: relative;
-    justify-content: space-between
-#list{
-   display: inline-flex;
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px 0 rgb(116, 114, 116);
+}
+.movie{
+    padding-top: 10px;
+    display: flex;
+}
+.studio{
+    margin-top: 20px;
+    border: solid;
+    height: 400px;
+}
+.music{
+    padding-top: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+#gana{
+    height: 300px;
+   width: 200px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px 0 rgb(116, 114, 116);
+}
+.cart{
+    margin-top: 20px;
+    border: solid;
+    height: 400px;
+}
+.cartoon{
+    padding-top: 10px;
+    display: flex;
+    /* margin-left: 10px; */
+}
+#ani{
+    height: 300px;
+   width: 200px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px 0 rgb(116, 114, 116);
+}
+.stand{
+    margin-top: 20px;
+    border: solid;
+    height: 400px;
+}
+.joke{
+    padding-top: 10px;
+    display: flex;
+}
+#Comedy{
+    height: 300px;
+   width: 200px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px 0 rgb(116, 114, 116);
+}
+.sport{
+    margin-top: 20px;
+    border: solid;
+    height: 400px;
+}
+.ball{
+    padding-top: 10px;
+    display: flex;
+}
+#eve{
+    height: 300px;
+   width: 200px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px 0 rgb(116, 114, 116);
+}
+.last{
+    margin-top: 20px;
+    border: solid;
+    height: 150px;
+}
+.app{
+   text-align: center;
+   line-height: 60px;
+}
+#link:hover{
+    /* border: blanchedalmond; */
+    border: solid white;
+    background-color: white;
+    color: white;
+}
+#link{
+   font-size: 30px;
+   margin-left: 10px;
+}
+.fa-youtube{
+   color:red;
+}
+.fa-facebook{
+    color:rgb(19, 146, 231);
+}
+.fa-instagram{
+    color: rgb(241, 9, 191);
+}
+.fa-twitter{
+    color:rgb(13, 99, 156);
+}
+.fa-yahoo{
+    color:rgb(4, 55, 88);
+}
+.fa-pinterest{
+    color:red;
+}
+#cpy{
+    margin:0 0 50px 0;
+    text-align: center;
 }
